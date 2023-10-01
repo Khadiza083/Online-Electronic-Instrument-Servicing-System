@@ -1,0 +1,32 @@
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 40px;
+}
+.con-card {
+    border: 1px solid #dad9d9;
+    width: 100%;
+    margin-bottom: 20px
+}
+.head {
+    background-color: #f1eded;
+    color: #777777;
+    padding: 10px 5px;
+}
+.con-content {
+    padding: 5px;
+}
+
+.con-content h4 {
+    margin: 10px 0;
+}
+
+.con-content p {
+    color: #727171;
+    margin: 10px 0;
+}
+.delete-btn{
+    border-radius: 0 0;
+    background-color: #fd7272;
+}

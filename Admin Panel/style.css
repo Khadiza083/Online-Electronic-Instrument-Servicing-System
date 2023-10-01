@@ -1,0 +1,101 @@
+
+.navbar {
+    background-color: #eba7d8;
+    padding: 10px 35px;
+}
+
+.main-content {
+
+    display: flex;
+    gap: 40px;
+
+}
+
+.side-bar {
+    background-color: #efaef1;
+    width: 20%;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+}
+ul>li {
+    list-style: none;
+    margin-bottom: 10px;
+    color: #424242;
+    font-size: 20px;
+    padding: 0 10px;
+
+}
+
+a {
+    text-decoration: none;
+}
+.active{
+    background-color: #E81AEF;
+    padding: 10px;
+}
+
+.active a{
+    color: white;
+}
+
+.main{
+    margin: 0;
+    width: 70%;
+}
+/* dashboard area */
+.main section{
+    display: flex;
+    gap: 40px;
+}
+.card{
+    width: 30%;
+    margin: 20px;
+    background-color: #f5f0f0;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.card h4{
+    background-color: #f05382;
+    padding: 10px 0;
+    width: 100%;
+}
+.card button{
+    width: 100%;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/* list of users area */
+.user-list h3{
+    background-color: rgb(59, 58, 58);
+    color: rgb(236, 234, 234);
+    padding: 8px;
+    text-align: center;
+    margin-top: 30px;
+}
+.user-list table{
+    width: 100%;
+}
+
+tr.border-bottom td{
+    border-bottom: 1px solid #d8d7d7;
+    padding: 10px;
+}
+th, td{
+    text-align: center;
+}
+
+/* confirm order area */
+
+
+
+
+
